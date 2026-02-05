@@ -4,8 +4,8 @@ Traditionally, NILM (Non-Intrusive Load Monitoring) has been proposed to help sa
 
 EXPLANATION OF FILES
 
-1. DANDY_DatasetCreation.ipynb :  
-  a. From datasets (7xREFIT/3xUKDALE/3xGREEND/1xAMPds2) and appliances (Fridge/Dishwasher/WashingMachine), creates files with 15-minute frequency.  
-  b. Creates the Centroids file (average active_power for Fridge/Dishwasher/WashingMachine/Nothing).  
-  c. Creates the 7 anomalies (StepChange, MultiStepChange, Mirror, Repeating, StuckMAX, StuckMIN, and PowerCycling) for 7 days.  
-  d. Merges normal and anomalies together while specifying ground_truth_anomaly and ground_truth_appliance.  
+1. DANDY_DatasetCreation.ipynb: <br>
+  a. From datasets (7xREFIT/3xUKDALE/3xGREEND/1xAMPds2) and appliances (Fridge/Dishwasher/WashingMachine), creates files with 15-minute frequency. <br>
+  b. Creates the Centroids file (average active_power for Fridge/Dishwasher/WashingMachine/Nothing). <br>
+  c. Creates the 7 anomalies (StepChange, MultiStepChange, Mirror, Repeating, StuckMAX, StuckMIN, and PowerCycling) for 7 days. <br>
+  d. Merges normal and anomalies together while specifying ground_truth_anomaly and ground_truth_appliance. <br>
