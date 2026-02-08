@@ -25,3 +25,26 @@ EXPLANATION OF FILES (The order is the order of usage)
 8. DANDY_NILM.ipynb - perform NILM Classification
 
 9. DANDY_Statistics.ipynb - combining Anomaly Detection with NILM and statistics.
+
+
+THE HIERARCHY OF THE FOLDERS
+
+AnomalyType is: {3SIGMA, ISOLATIONFOREST, DBSCAN, AE, COCA, DIFFUSION_RESIDUALSPECTRAL}
+
+Paper02_14Datasets
+      |
+      --- REFIT_ORIGINALS
+      --- UKDALE_ORIGINALS
+      --- GREEND_ORIGINALS
+      --- AMPds2_ORIGINALS
+      |
+      --- MERGED
+      --- CENTROIDS
+      |
+      --- ANOMALY_{AnomalyType}
+             |
+             --- Percentiles_Summary
+      --- NILM
+      --- COMBINED_{AnomalyType}
+      |
+      --- STATISTICS
