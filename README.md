@@ -21,3 +21,7 @@ EXPLANATION OF FILES
 6. DANDY_AnomalyDetection_COCA.ipynb
 
 7. DANDY_AnomalyDetection_DIFFUSION.ipynb
+
+8. DANDY_NILM.ipynb - perform NILM Classification
+
+9. DANDY_Statistics.ipynb - combining Anomaly Detection with NILM and statistics.
