@@ -27,24 +27,24 @@ EXPLANATION OF FILES (The order is the order of usage)
 9. DANDY_Statistics.ipynb - combining Anomaly Detection with NILM and statistics.
 
 
-THE HIERARCHY OF THE FOLDERS
+THE HIERARCHY OF THE FOLDERS<BR>
 
-AnomalyType is: {3SIGMA, ISOLATIONFOREST, DBSCAN, AE, COCA, DIFFUSION_RESIDUALSPECTRAL}
+AnomalyType is: {3SIGMA, ISOLATIONFOREST, DBSCAN, AE, COCA, DIFFUSION_RESIDUALSPECTRAL}<BR><BR>
 
-Paper02_14Datasets
-      |
-      --- REFIT_ORIGINALS
-      --- UKDALE_ORIGINALS
-      --- GREEND_ORIGINALS
-      --- AMPds2_ORIGINALS
-      |
-      --- MERGED
-      --- CENTROIDS
-      |
-      --- ANOMALY_{AnomalyType}
-             |
-             --- Percentiles_Summary
-      --- NILM
-      --- COMBINED_{AnomalyType}
-      |
-      --- STATISTICS
+Paper02_14Datasets<BR>
+      |<BR>
+      --- REFIT_ORIGINALS<BR>
+      --- UKDALE_ORIGINALS<BR>
+      --- GREEND_ORIGINALS<BR>
+      --- AMPds2_ORIGINALS<BR>
+      |<BR>
+      --- MERGED<BR>
+      --- CENTROIDS<BR>
+      |<BR>
+      --- ANOMALY_{AnomalyType}<BR>
+             |<BR>
+             --- Percentiles_Summary<BR>
+      --- NILM<BR>
+      --- COMBINED_{AnomalyType}<BR>
+      |<BR>
+      --- STATISTICS<BR>
